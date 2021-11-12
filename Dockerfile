@@ -3,6 +3,8 @@ FROM node:lts-alpine
 # Install Google Chrome yarn ncftp
 RUN apk --no-cache upgrade && apk add --no-cache \
     chromium \
+    bash \
+    git \
     nss \
     freetype \
     harfbuzz \
